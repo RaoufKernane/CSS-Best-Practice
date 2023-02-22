@@ -4,7 +4,10 @@
 .container{
     border: 5px solid lightgray;
     padding: 24px 24px 0 24px;
-    display:flex;
+}
+.row{
+    max-width: 600px;
+    display: flex;
     justify-content: space-between;
 }
 .box{
@@ -17,6 +20,14 @@
 }
 .box-small{
     height: 50px;
+}
+.box-tiny{
+    width: 30%;
+    height: 50px;
+}
+.tiny-wrapper{
+    display: flex;
+    justify-content: space-between;
 }
 .box-large{
     width: 45%;
